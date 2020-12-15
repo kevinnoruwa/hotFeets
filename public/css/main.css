@@ -1,0 +1,53 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800;900&display=swap');
+@import './header.css';
+@import './banner.css';
+@import './newArrivals.css';
+@import './apparel-extras.css';
+@import './apparel.css';
+@import './newsletter.css';
+@import './footer.css';
+@import './show.css';
+@import './allshoes.css';
+@import './apparel-show.css';
+@import './cart.css';
+
+
+
+
+
+/* Global */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html  {
+    scroll-behavior: smooth;
+}
+html, body {
+    overflow-x: hidden;
+}
+body {
+    font-family: Raleway , 'Times New Roman', Times, serif;
+  
+    color: #1e1e1e;
+    line-height: 1.4
+}
+
+a {
+    text-decoration: none;
+    color: #1e1e1e;
+    
+}
+li {
+    
+    list-style: none;
+}
+
+
+
