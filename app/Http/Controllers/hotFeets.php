@@ -10,6 +10,7 @@ use App\Models\adidas;
 use App\Models\nikes;
 use App\Models\pumas;
 use App\Models\jordans;
+use App\Models\extras;
 
 class hotFeets extends Controller
 {
@@ -161,6 +162,17 @@ class hotFeets extends Controller
     public function  cart()
     {
         return view('cart');
+    }
+
+    public function  extras()
+    {
+        $extras = extras::all();
+        return view('extra', compact('extras'));
+    }
+    public function  extrasshow($id)
+    {
+        $extras = extras::where('id', $id)->first();
+        return view('extras_show', compact('extras'));
     }
 
 }

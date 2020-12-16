@@ -29,3 +29,5 @@ Route::get('/new-arrivals/{id}', 'App\Http\Controllers\hotFeets@newshow');
 Route::get('/apparel', 'App\Http\Controllers\hotFeets@apparel');
 Route::get('/apparel/{id}', 'App\Http\Controllers\hotFeets@apparelshow');
 Route::get('/cart', 'App\Http\Controllers\hotFeets@cart');
+Route::get('/extras', 'App\Http\Controllers\hotFeets@extras');
+Route::get('/extras/{id}', 'App\Http\Controllers\hotFeets@extrasshow');

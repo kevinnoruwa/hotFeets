@@ -77,7 +77,7 @@
                             <li class="box-header">Extras</li>
                             <p class="small-text">In need of some new laces or new shoe essentials? We got you. </p>
                             <li class="shop-now">
-                                <a href="">Shop</a>
+                                <a href="/extras">Shop</a>
                             </li>
                         </div>
                     </div>
