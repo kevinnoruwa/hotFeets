@@ -38,11 +38,19 @@ header .inside {
 
  
 header .inside .header-title-cart {
-    grid-template-columns: 37fr 1fr;
+    grid-template-columns:   37fr 1fr;
     justify-items: center ;
     display: grid; 
     
  }
+
+ header .inside .header-title-cart .menu {
+     display: none;
+     font-size: 1.2rem;
+     cursor: pointer;
+
+ }
+
 
  header .inside .header-title-cart h1 {
    font-size: 2rem;
@@ -116,6 +124,8 @@ header .inside .header-title-cart .cart {
 .inside-shoes {
     
     transition: all .3s ease-in-out;
+    font-weight: 600;
+    font-size: .9rem;
     padding: 20px 0 20px;
     background:#fff;
     visibility: hidden;

@@ -15,6 +15,7 @@
 @import './apparel-show.css';
 @import './cart.css';
 @import './extras-show.css';
+@import './mobil.css';
 
 
 
@@ -51,4 +52,31 @@ li {
 }
 
 
+/* MEDIA QUERIES */
 
+
+@media only screen and (max-width: 767px) {
+    header .inside .header-title-cart h1 {
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+    header .inside .header-title-cart {
+        grid-template-columns: 1fr 3fr 1fr;
+        justify-items: center;
+        display: grid;
+    }
+
+    header .inside .header-title-cart .menu {
+        display: block;
+ 
+    }
+
+
+.header-nav {
+  display: none;
+}
+
+header .hr {
+    display: none;
+}
+}

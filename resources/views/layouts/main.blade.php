@@ -9,12 +9,16 @@
     <link rel="stylesheet" href="/css/owl.carousel.min.css">
     <link rel="stylesheet" href="/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="/css/main.css">
+ 
     <title>Hot Feets</title>
 </head>
 <body>
     <header>
         <div class="inside">
             <div class="header-title-cart">
+                <div class="menu">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
                 <a href="/">
                     <h1>
                         <span>HOT FEETS</span>
@@ -73,6 +77,42 @@
             </div>
         </div>
     </section>
+
+    <section id="mobil">
+        <div class="icon">
+            <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul class="inside">
+            <li> 
+                <a href="/">Home</a>
+            </li>
+            <li> 
+                <a href="/allShoes">All Shoes</a>
+            </li>
+            <li>
+                <a href="/jordan">Jordans</a>
+            </li>
+            <li>
+                <a href="/adidas">Adidas</a>
+            </li>
+            <li>
+                <a href="/nike">Nike</a>
+            </li>
+            <li>
+                <a href="/puma">Puma</a>
+            </li>
+            <li>
+                <a href="/apparel">Apparel</a>
+            </li>
+
+            <li>
+                <a href="/extras">Extras</a>
+            </li>
+
+        </ul>
+    </section>
+
+    <section id="filter"></section>
     <footer>
         <div class="container">
             <div class="about-us">
@@ -99,13 +139,13 @@
             </div>
         </div>
     
+    
     </footer>
 
 
-       
+        <script src="/js/main.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="/js/owl.js"></script>
-        <script src="/js/main.js"></script>
         <script src="/js/jquery.js"></script>
     </body>
     </html>
