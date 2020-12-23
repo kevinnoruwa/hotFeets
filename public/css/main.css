@@ -201,6 +201,7 @@ li {
     footer .mobil-extra {
         
        padding: 150px 0 0;
+       display: block !important;
        margin: 0 auto;
     
 

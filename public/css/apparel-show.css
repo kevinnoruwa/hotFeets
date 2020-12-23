@@ -21,14 +21,14 @@
     display: grid;
     width: 1400px; 
 }
-#apparel-show-section .inside .shoe-img {
+#apparel-show-section .inside .cloth-img {
     position: relative;
     text-align: center;
     top: 50px;
     
  
 }
-#apparel-show-section .inside .shoe-img img{
+#apparel-show-section .inside .cloth-img img{
     width: 400px;
  
 }
