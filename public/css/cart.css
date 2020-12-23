@@ -21,7 +21,10 @@
 
 
 }
+#cart .inside .items ul li {
+    padding: 60px 0;
 
+}
 #cart .inside .items ul li:not(:last-child) {
     border-bottom: 1px solid rgba(0,0,0, 0.1);
     border-top: 1px solid rgba(0,0,0, 0.1);

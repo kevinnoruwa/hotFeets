@@ -28,6 +28,11 @@ Route::get('/new-arrivals', 'App\Http\Controllers\hotFeets@new');
 Route::get('/new-arrivals/{id}', 'App\Http\Controllers\hotFeets@newshow');
 Route::get('/apparel', 'App\Http\Controllers\hotFeets@apparel');
 Route::get('/apparel/{id}', 'App\Http\Controllers\hotFeets@apparelshow');
-Route::get('/cart', 'App\Http\Controllers\hotFeets@cart');
+Route::get('/shopping-cart', 'App\Http\Controllers\hotFeets@shoppingcart');
 Route::get('/extras', 'App\Http\Controllers\hotFeets@extras');
 Route::get('/extras/{id}', 'App\Http\Controllers\hotFeets@extrasshow');
+
+
+// Add to cart Route
+
+Route::Post('/add-to-cart', 'App\Http\Controllers\hotFeets@addtocart');

@@ -15,7 +15,7 @@
 @import './apparel-show.css';
 @import './cart.css';
 @import './extras-show.css';
-@import './mobil.css';
+@import './mobil.css'; 
 
 
 
@@ -71,12 +71,259 @@ li {
  
     }
 
-
-.header-nav {
-  display: none;
-}
-
-header .hr {
+    .header-nav {
     display: none;
+    }
+
+    header .hr {
+        display: none;
+    }
+
+    #banner-section .inside {
+        padding: 0 0 0 0px;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+
+    
+    }
+    #banner-section .inside .banner-box {
+        width: 399px;
+        height:250px;
+        
+    }
+
+
+
+    #banner-section .inside .banner-box .inside-box li.shop-now {
+    
+        left: 0px;
+    }
+
+
+    #new-arrivals .shoes .container  {
+       grid-template-columns: 1fr 1fr ;
+       padding: 0 10px;
+       grid-gap: 20px 10px;
+       width: 100%;
+    }
+
+    #new-arrivals .shoes .container .shoe-box .shoe-img img {
+        width: 280px;
+    }
+
+    #apparel-extras .container {
+        
+        width: 100%;
+    
+       
+    }
+
+    #apparel-extras .container .content {
+        
+        width: 100%;
+        text-align: center;
+       display: block;
+       margin: 0 auto;
+
+
+       
+    }
+    #apparel-extras .container .content .img-box .details-box {
+        margin: 0 auto;
+    }
+
+    #apparel-extras .container .content .img-box-2 .details-box {
+        margin: 0 auto;
+        left: 0;
+
+    }
+
+    #appareal .cloths .container {
+        grid-template-columns: 1fr 1fr;
+        padding: 0 10px;
+        grid-gap: 20px 10px;
+        width: 100%;
+    }
+    #newsletter-section .inside {
+        grid-template-columns: 1fr ;
+        grid-template-rows: 180px  180px 180px ;
+    
+        padding: 40px 15px;
+        justify-items: center;
+        align-items: center;
+        display: grid;
+    }
+
+    #newsletter-section .inside .details-box {
+        width: 100%;
+        text-align: center;
+    }
+
+    #newsletter-section .inside .details-box input{
+        margin: 35px 0 0;
+        
+    }
+        
+        
+  
+    
+
+    #newsletter-section .inside .details-box .refer {
+       padding: 12px 100px;
+    }
+
+    #newsletter-section .inside .border {
+        border: none;
+        border-bottom: 1px solid rgba(0,0,0,0.2);
+        height: 0px;
+        width: 100%;
+      
+        
+    
+    }
+
+    footer {
+        height: 100%;
+        text-align: center;
+    }
+
+    footer .container {
+        grid-template-columns: 1fr 1fr;  
+        width: 100%;
+        top: 85px;
+    }
+
+    footer .container .extra {
+        display: none;
+       
+    }
+    footer .mobil-extra {
+        
+       padding: 150px 0 0;
+       margin: 0 auto;
+    
+
+    }
+    footer .mobil-extra  h3 {
+        font-size: 1.3rem;
+
+        
+      
+ 
+     }
+
+    footer .mobil-extra  i {
+        font-size: 1.4rem;
+        padding: 10px;
+        
+      
+ 
+     }
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    #banner-section .inside .banner-box {
+        width: 250px;
+        height:250px;
+        
+    }
+
+    #new-arrivals .shoes .container .shoe-box .shoe-img img {
+        width: 220px;
+    }
+
+    #apparel-extras .container .content .img-box .img img {
+        width: 291px;
+       
+    }
+   #apparel-extras .container .content .img-box-2 .img img {
+        width: 291px;
+     
+    }
+
+    
+    #apparel-extras .container .content .img-box .details-box {
+        width: 272px;
+       
+    }
+
+
+    #apparel-extras .container .content .img-box-2 .details-box {
+        width: 272px;
+     
+    }
+ 
+    #newsletter-section .inside .details-box .refer {
+        padding: 12px 80px;
+     }
+
+ 
+
+}
+
+
+
+@media only screen and (max-width: 430px) {
+
+    #new-arrivals .shoes .container .shoe-box .shoe-img img {
+        width: 166px;
+    }
+    #appareal .cloths .container .clothes-box .img img {
+        width: 166px;
+    }
+
+    #newsletter-section .inside .details-box input {
+       
+        font-size: 1rem;
+       
+    }
+
+    #newsletter-section .inside .details-box .sign-up-btn {
+       
+        padding: 8px;
+       
+    }
+
+
+   
+}
+
+
+
+
+@media only screen and (max-width: 320px) {
+
+    #new-arrivals .shoes .container .shoe-box .shoe-img img {
+        width: 120px;
+    }
+
+    #appareal .cloths .container .clothes-box .img img {
+        width: 144px;
+    }
+   
+
+
+    #newsletter-section .inside .details-box .refer {
+        padding: 12px 60px;
+    }
+
+
+ 
+
+   
+}
+
+
+@media only screen and (max-width: 280px) {
+    #appareal .cloths .container .clothes-box .img img {
+        width: 126px;
+    }
+
+  
+
+    
+
 }

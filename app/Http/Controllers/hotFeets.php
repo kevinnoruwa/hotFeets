@@ -11,6 +11,8 @@ use App\Models\nikes;
 use App\Models\pumas;
 use App\Models\jordans;
 use App\Models\extras;
+use App\Models\Cart;
+use Session;
 
 class hotFeets extends Controller
 {
@@ -159,9 +161,16 @@ class hotFeets extends Controller
         return view('apparel_show' , compact('cloth'));
     }
 
-    public function  cart()
+    public function  shoppingcart()
     {
-        return view('cart');
+        $products = Cart::all();
+        if(count($products) === 0){
+            $message = "your cart is empty";
+            session::flash("error_message", $message);
+        }
+    
+   
+        return view('cart', compact("products"));
     }
 
     public function  extras()
@@ -174,5 +183,57 @@ class hotFeets extends Controller
         $extras = extras::where('id', $id)->first();
         return view('extras_show', compact('extras'));
     }
+    
 
+    public function  addtocart(Request $request)
+    {
+        if($request->isMethod('post')){
+            $data = $request->all();     
+        }
+        // Generate Sesson id
+        $session_id = Session::get('session_id');
+        if(empty($session_id)){
+            $session_id = Session::getId();
+            Session::put('session_id', $session_id);
+        }
+
+        // Check if product exist in cart
+
+        $countProducts = Cart::where(['session_id'=>$session_id, 
+        'product_id'=>$data["product_id"], 
+        'size' => $data['size'], 
+        'quantity' => $data['quantity'], 
+        'brand' => $data['brand'],
+        'name' => $data['name'],
+        'price' => $data['price'],
+        'image' => $data['image']] )->count();
+
+        if($countProducts > 0 ){
+
+            $message = "Product already exist in cart";
+
+            session::flash('error_message', $message);
+
+            return redirect()->back();
+
+        }
+
+        // Save product to cart
+
+        Cart::insert(['session_id'=>$session_id, 
+        'product_id'=>$data["product_id"], 
+        'size' => $data['size'], 
+        'quantity' => $data['quantity'],
+        'brand' => $data['brand'],
+        'name' => $data['name'],
+        'price' => $data['price'],
+        'image' => $data['image']] );
+
+        $message = "Product has been added in cart";
+
+        session::flash('success_message', $message);
+
+        return redirect()->back();
+
+    }
 }

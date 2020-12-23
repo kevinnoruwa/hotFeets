@@ -26,7 +26,7 @@
                     </h1>
 
                 </a>
-                <a href="/cart">
+                <a href="/shopping-cart">
                     <div class="cart">
                         <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                     </div>
@@ -138,7 +138,14 @@
     
             </div>
         </div>
-    
+        <div class="mobil-extra">
+            <h3 class="title">Connect with us</h3>
+            <i class="fa fa-pinterest-square" aria-hidden="true"></i>
+            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+
+        </div>
     
     </footer>
 
