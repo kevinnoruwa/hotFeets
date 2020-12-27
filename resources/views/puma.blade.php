@@ -8,7 +8,7 @@
                 <p>Puma shoes are always ready to pounce.</p>
             </div>
             <div class="shoe-img">
-                <img src="https://www.stadiumgoods.com/cdn-cgi/image/fit%3Dcontain%2Cformat%3Dauto%2Cwidth%3D1440/media/catalog/category/SG_SUBcategory_FW_PUMA_082018.jpg" alt="">
+                <img src="https://i.postimg.cc/PxBL2jrK/puma-bg.png" alt="">
             </div>
          
         </div>

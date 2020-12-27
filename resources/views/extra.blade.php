@@ -8,7 +8,7 @@
                 <p>Find all your needed shoe essentials </p>
             </div>
             <div class="shoe-img">
-                <img src="https://www.stadiumgoods.com/cdn-cgi/image/fit%3Dcontain%2Cformat%3Dauto%2Cwidth%3D2000/media/catalog/category/200810_header_websiterefresh_WOMENS.jpg" alt="">
+                <img src="https://i.postimg.cc/rsKMWzrz/extrass-bg.png" alt="">
             </div>
          
         </div>

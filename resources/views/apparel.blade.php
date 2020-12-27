@@ -8,7 +8,7 @@
                 <p>Shop Hot Feets exclusive apparel collection </p>
             </div>
             <div class="shoe-img">
-                <img src="https://fairware.com/wp/wp-content/uploads/2019/03/Screen-Shot-2019-03-22-at-4.38.55-PM.png" alt="">
+                <img src="https://i.postimg.cc/nLJF5H6w/apparel-bg.png" alt="">
             </div>
          
         </div>

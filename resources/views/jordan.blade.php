@@ -8,7 +8,7 @@
                 <p>Take flight. Find all the Lengendary jordan models we have to offer </p>
             </div>
             <div class="shoe-img">
-                <img src="https://www.stadiumgoods.com/cdn-cgi/image/fit%3Dcontain%2Cformat%3Dauto%2Cwidth%3D1440/media/catalog/category/200810_header_websiterefresh_JORDAN.jpg" alt="">
+                <img src="https://i.postimg.cc/vZ3cC9Z4/jordan-bg.png" alt="">
             </div>
          
         </div>

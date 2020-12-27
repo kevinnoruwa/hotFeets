@@ -8,7 +8,7 @@
                 <p>The brand with the 3 stripes </p>
             </div>
             <div class="shoe-img">
-                <img src="https://www.stadiumgoods.com/cdn-cgi/image/fit%3Dcontain%2Cformat%3Dauto%2Cwidth%3D1440/media/catalog/category/SG_header_adidas_1_.png" alt="">
+                <img src="https://i.postimg.cc/qRthsR0z/adidas-bg.png" alt="">
             </div>
          
         </div>

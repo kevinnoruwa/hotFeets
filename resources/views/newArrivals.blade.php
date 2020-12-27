@@ -8,7 +8,7 @@
                 <p> The hottest new sneaker releases.</p>
             </div>
             <div class="shoe-img">
-                <img src="https://www.stadiumgoods.com/cdn-cgi/image/fit%3Dcontain%2Cformat%3Dauto%2Cwidth%3D2000/media/catalog/category/200818_NEWSITE_HEADER_NewArrivals_B_1.jpg" alt="">
+                <img src="https://i.postimg.cc/hjCKfVhH/new-arrivals-bg.png" alt="">
             </div>
          
         </div>

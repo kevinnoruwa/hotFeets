@@ -51,7 +51,7 @@
             <div class="content">
                 <div class="img-box">
                     <div class="img">
-                        <img src="https://images.garmentory.com/images/3393517/original/Mens-Nike-Sportswear-Tech-Fleece-20200110214253.png?1578692577" alt="">
+                        <img src="https://i.postimg.cc/TPJdvzx2/appareal-home-pg-img.png" alt="">
                     </div>
                     <div class="details-box">
                         <div class="contain">
@@ -68,8 +68,7 @@
                 </div>
                 <div class="img-box-2">
                     <div class="img">
-                        <img src="https://www.stadiumgoods.com/cdn-cgi/image/fit%3Dcontain%2Cformat%3Dauto%2Cwidth%3D1200/media/sumoheavy_flexslider/h67799-yeezy-alvah-module.jpg" alt="">
-                    </div>
+                        <img src="https://i.postimg.cc/6369WM6r/extra-home-page-img.png">
                     <div class="details-box">
                         <div class="contain">
                             <li class="highlight">Hot Feets</li>
