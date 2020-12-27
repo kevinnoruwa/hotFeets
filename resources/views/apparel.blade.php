@@ -1,7 +1,7 @@
 @extends('layouts/main')
 
 @section('content')
-    <section id="shoe-banner">
+    <section id="appareal-banner">
         <div class="inside">
             <div class="shoe-details">
                 <h2 class="name">Appareal</h2>
@@ -13,7 +13,7 @@
          
         </div>
     </section>
-    <section id="shoes">
+    <section id="all-appareal">
         <div class="header">
             <span class="title">Appareal</span>
         </div>

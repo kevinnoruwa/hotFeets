@@ -1,6 +1,12 @@
 #cart  {
     padding:200px 0;
 }
+
+
+#cart input[type="number"] {
+    margin: 20px 0 0 0;
+
+}
 #cart .highlight {
     color:  rgb(164, 29, 35);
 }
@@ -62,7 +68,7 @@
 }
 #cart .inside .items ul li .container .item-details span {
     font-size: .8rem;
-    margin: 0 0 0 20px;
+    margin: 20px 0 0 20px;
 
 
 

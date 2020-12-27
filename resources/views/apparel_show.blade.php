@@ -16,7 +16,7 @@
         </div>
         @endif
         @if(Session::has('error_message'))
-        <div class="alert" style="margin-top: 20px;">
+        <div class="red-alert">
             {{Session::get('error_message')}}
         </div>
         @endif

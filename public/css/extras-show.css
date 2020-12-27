@@ -39,10 +39,22 @@
 #extra-show-section .inside .show-info .price {
     font-size: 1.2rem;
     color:  rgb(164, 29, 35);
- 
 
     
 }
+
+#extra-show-section .inside .show-info input[type="number"] {
+ 
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0,0 ,0.2);
+    padding: 4px;
+    outline: none;
+    position: relative;
+    display: block;
+    margin: 20px;
+    
+   }
+
 
 #extra-show-section .inside .show-info .select  {
   text-align:center;

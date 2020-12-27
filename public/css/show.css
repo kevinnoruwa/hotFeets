@@ -1,9 +1,11 @@
 #show-section {
     padding: 130px 0 ;
 }
+
 #show-section .breadcrumbs  {
     position: relative;
     left: 21px;
+
     
 }
 
@@ -41,6 +43,18 @@
 
     
 }
+#show-section .inside .show-info input[type="number"] {
+ 
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0,0 ,0.2);
+    padding: 4px;
+    outline: none;
+    position: relative;
+    display: block;
+    margin: 20px;
+    
+   }
+
 
 #show-section .inside .show-info .select  {
   text-align:center;
@@ -92,12 +106,17 @@
     top: 25px;
       
  }
+
+ #show-section .inside .show-info .details p {
+    text-align: justify;
+      
+ }
  #extras  {
      padding: 65px 0;
  }
 
  #extras h2 {
-     margin: 0 0 14px;
+     margin: 0 0 35px;
      text-align: center;
      font-size: 2rem;
 
@@ -109,8 +128,9 @@
  }
 
  #extras .item  img {
+    margin: 0 auto;
     width: 400px;
-    margin: 0;
+    
     
     
 

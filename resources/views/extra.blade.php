@@ -13,7 +13,7 @@
          
         </div>
     </section>
-    <section id="shoes">
+    <section id="extras-item">
         <div class="header">
             <span class="title">Extras</span>
         </div>

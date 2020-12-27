@@ -59,6 +59,18 @@
      
  }
 
+ #apparel-show-section .inside .show-info input[type="number"] {
+ 
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0,0 ,0.2);
+    padding: 4px;
+    outline: none;
+    position: relative;
+    display: block;
+    margin: 20px;
+    
+   }
+
 #apparel-show-section .inside .show-info .select select {
    background:  rgb(164, 29, 35);
    margin: 0 auto;
@@ -101,4 +113,4 @@
 #apparel-show-section .inside .show-info .details {
     position: relative;
     top: 25px;
-    
+}

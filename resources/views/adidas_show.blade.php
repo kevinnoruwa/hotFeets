@@ -11,12 +11,12 @@
             <span>{{$shoe->name}}</span>
         </div>
         @if(Session::has('success_message'))
-        <div class="alert" style="margin-top: 20px;">
+        <div class="alert" >
             {{Session::get('success_message')}}
         </div>
         @endif
         @if(Session::has('error_message'))
-        <div class="alert" style="margin-top: 20px;">
+        <div class="red-alert">
             {{Session::get('error_message')}}
         </div>
         @endif

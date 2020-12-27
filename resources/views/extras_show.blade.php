@@ -11,12 +11,12 @@
             <span>{{$extras->name}}</span>
         </div>
         @if(Session::has('success_message'))
-        <div class="alert" style="margin-top: 20px;">
+        <div class="alert">
             {{Session::get('success_message')}}
         </div>
         @endif
         @if(Session::has('error_message'))
-        <div class="alert" style="margin-top: 20px;">
+        <div class="red-alert">
             {{Session::get('error_message')}}
         </div>
         @endif
@@ -37,10 +37,9 @@
                     <div class="name">{{$extras->name}}</div>
                     <div class="nickname">{{$extras->nickname}}</div>
                     <div class="price">${{$extras->price}}.00</div>
+                    <input max={{10}} min={{1}} placeholder="Qty." type="number" name="quantity" >
                     <div class="select">
-                        <input max={{10}} min={{1}} placeholder="Qty." type="number" name="quantity" >
                         <button class="submit">ADD TO CART</button>
-
                     </div>
                     <hr class="hr">
                     <div class="details">
