@@ -485,6 +485,10 @@ li {
        top: 170px;
    }
 
+   #shoes .content {
+    
+    margin-bottom: 200px;
+}
     #shoes .content .inside .shoe-img img {
         
         width: 339px;
