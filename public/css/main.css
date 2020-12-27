@@ -1466,7 +1466,7 @@ li {
     /*  all appareal */
 
     #all-appareal .content .inside .shoe-img img {
-        width: 120px;
+        width: 100px;
     }
 
 
@@ -1474,8 +1474,8 @@ li {
  /* cart */
 
  #cart .inside .items ul li .container {
-    grid-template-columns: 1fr 4fr 1fr;
-    padding: 0 18px 0 0;
+    grid-template-columns: 1fr 4fr 2fr;
+    padding: 0 27px 0 0;
     display: grid;
 }
 #cart .inside .items ul li .container .item-details {
@@ -1507,7 +1507,7 @@ li {
 
     /* home page */
     #appareal .cloths .container .clothes-box .img img {
-        width: 126px;
+        width: 100px;
     }
 
     #newsletter-section .inside .details-box input {

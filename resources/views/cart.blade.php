@@ -32,7 +32,7 @@
             </div>
             <div class="total-box">
             <span>{{count($products) >  0 ? "Subtotal" : null }}({{count($products)}} {{count($products) !== 1 ? "items" : "item"}}): 
-            <span class="highlight">{{$x = 0}}@foreach($products as $product) {{$product->price += $x}} @endforeach</span>
+            <span class="highlight">$500</span>
                 </span>
                 <button class="btn-submit">Proceed to Buy</button>
             </div>
