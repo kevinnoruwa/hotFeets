@@ -51,7 +51,7 @@ return [
             'database' => env('DB_DATABASE', 'heroku_cbbe7f6a4f0afd9'),
             'username' => env('DB_USERNAME', 'b0c65138200b35'),
             'unix_socket'   => getenv('UNIX_SOCKET'),
-            'password' => env('DB_PASSWORD', ''),
+            'password' => env('DB_PASSWORD', '76f2f070'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8',
             'collation' => 'utf8_general_ci',
